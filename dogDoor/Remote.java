@@ -1,9 +1,9 @@
 package dogDoor;
 public class Remote { //리모컨
 
-  private DogDoor door;
+  private DogDoor door; //필드
 
-  public Remote(DogDoor door) {
+  public Remote(DogDoor door) { //생성자
     this.door = door;
   }
 

@@ -4,9 +4,9 @@ import java.util.List;
 
 public class BarkRecognizer {
 
-  private DogDoor door;
+  private DogDoor door; //필드
 
-  public BarkRecognizer(DogDoor door) {
+  public BarkRecognizer(DogDoor door) { //생성자
     this.door = door;
   }
 

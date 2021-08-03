@@ -6,10 +6,10 @@ import java.util.TimerTask;
 
 public class DogDoor {
 
-  private boolean open;
-  private List allowedBarks;
+  private boolean open; //필드
+  private List allowedBarks; //필드
 
-  public DogDoor() {
+  public DogDoor() { //생성자
     this.allowedBarks = new LinkedList();
     open = false;
   }

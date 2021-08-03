@@ -1,9 +1,9 @@
 package dogDoor;
 public class Bark {
 
-  private String sound;
+  private String sound; //필드
 
-  public Bark(String sound) {
+  public Bark(String sound) { //생성자
     this.sound = sound;
   }
 
@@ -14,10 +14,10 @@ public class Bark {
   public boolean equals(Object bark) {
     if (bark instanceof Bark) {
       Bark otherBark = (Bark)bark;
-      if (this.sound.equalsIgnoreCase(otherBark.sound)) {
-        return true;
+      if (this.sound.equalsIgnoreCase(otherBark.sound)) { //소리가 같을 때, true
+        return true; 
       }
     }
-    return false;
+    return false; //소리가 다를 때 false
   }
 }
