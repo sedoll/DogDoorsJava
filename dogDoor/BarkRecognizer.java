@@ -10,7 +10,7 @@ public class BarkRecognizer {
     this.door = door;
   }
 
-  public void recognize(Bark bark) {
+  public void recognize(Bark bark) { //¸Þ¼Òµå
     System.out.println("   BarkRecognizer: Heard a '" +
         bark.getSound() + "'");
     List allowedBarks = door.getAllowedBarks();
